@@ -1,20 +1,16 @@
-import Footer from "./components/Footer"
-import Navbar from "./components/Navbar"
-import HomePage from "./pages/HomePage"
+import React from "react"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Dashboard from "./Layouts/Dashboard"
+import { useDispatch } from "react-redux"
 
 function App() {
+
   return (
-    <>
-      {/* Navbar */}
-      <Navbar />
-
-      {/* Content */}
-      <HomePage />
-
-      {/* Footer */}
-      <Footer />
-
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<Dashboard />} /> 
+      </Routes>
+    </BrowserRouter>
   )
 }
 

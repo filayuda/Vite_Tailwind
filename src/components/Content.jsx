@@ -1,65 +1,64 @@
-// import React from 'react'
-import HeroImage from '../assets/images/hero.svg'
-import AboutImage from '../assets/images/about.svg'
+import React from 'react'
+import HeroImage from "../assets/images/hero.svg";
+import AboutImage from "../assets/images/about.svg";
 import image1 from "../assets/images/proyek-1.webp";
 import image2 from "../assets/images/proyek-2.webp";
 import image3 from "../assets/images/proyek-3.webp";
 import image4 from "../assets/images/proyek-4.webp";
 import image5 from "../assets/images/proyek-5.webp";
 
+function Content() {
 
-const HomePage = () => {
-  const layanan = [
-    {
-      id: 1,
-      title: "Layanan 1",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quae.",
-    },
-    {
-      id: 2,
-      title: "Layanan 2",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quae.",
-    },
-    {
-      id: 3,
-      title: "Layanan 3",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quae.",
-    },
-  ];
+    const layanan = [
+      {
+        id: 1,
+        title: "Layanan 1",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quae.",
+      },
+      {
+        id: 2,
+        title: "Layanan 2",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quae.",
+      },
+      {
+        id: 3,
+        title: "Layanan 3",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quae.",
+      },
+    ];
 
-  const proyek = [ 
-    {
-      id: 1,
-      title: "Proyek 1",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quae.",
-      img: image1,
-    },
-    {
-      id: 2,
-      title: "Proyek 2",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quae.",
-      img: image2,
-    },
-    {
-      id: 3,
-      title: "Proyek 3",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quae.",
-      img: image3,
-    },
-    {
-      id: 4,
-      title: "Proyek 4",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quae.",
-      img: image4,
-    },
-    {
-      id: 5,
-      title: "Proyek 5",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quae.",
-      img: image5,
-    },
-  ]
-
+    const proyek = [
+      {
+        id: 1,
+        title: "Proyek 1",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quae.",
+        img: image1,
+      },
+      {
+        id: 2,
+        title: "Proyek 2",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quae.",
+        img: image2,
+      },
+      {
+        id: 3,
+        title: "Proyek 3",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quae.",
+        img: image3,
+      },
+      {
+        id: 4,
+        title: "Proyek 4",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quae.",
+        img: image4,
+      },
+      {
+        id: 5,
+        title: "Proyek 5",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quae.",
+        img: image5,
+      },
+    ];
   return (
     <div className="pb-10 homepage ">
       <div className="container px-4 mx-auto">
@@ -166,7 +165,10 @@ const HomePage = () => {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default HomePage
+export default Content
+
+
+// import React from 'react'
